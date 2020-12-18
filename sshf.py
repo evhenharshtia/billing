@@ -12,12 +12,9 @@ Version = datetime.date.today()
 
 FtpdIP = '192.168.10.202'
 ftpUser = "ftpuser"
-ftpPass = "ftpPassword2020"
+ftpPass = "ftpPassword"
 path = "/Public/ftpBackup/mt"
-# ip = '192.168.10.254'
-# login = 'root'
-# password = 'c17h35coona'
-# port = '2184'
+
 ssh = SSHClient()
 ssh.set_missing_host_key_policy(AutoAddPolicy())
 file=open('/home/feldsher/scripts/devices.txt','r')
